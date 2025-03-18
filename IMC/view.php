@@ -24,6 +24,6 @@
 
 <?php
   if(isset($imc)){
-    echo number_format($imc * 10000, 2);
+    echo "Nome: {$nome} \nPeso: {$peso}kg \nAltura: {$altura} \nIMC:{number_format($imc * 10000, 2)}";
   }
 ?>
